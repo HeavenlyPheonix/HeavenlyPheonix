@@ -1,0 +1,13 @@
+:root {
+    --main-color: rgb(182, 169, 51);
+    --main-gradient: linear-gradient(90deg, var(--main-color), rgb(150, 148, 59), var(--main-color));
+}
+
+div#page {
+    background: var(--main-gradient);
+    color: white;
+    border: 1px solid rgb(214, 216, 125);
+}
+body {
+    background-color: rgb(192, 191, 154);
+}
