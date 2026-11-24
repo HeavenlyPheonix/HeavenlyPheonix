@@ -1,6 +1,6 @@
 :root {
-    --main-color: rgb(182, 169, 51);
-    --main-gradient: linear-gradient(90deg, var(--main-color), rgb(150, 148, 59), var(--main-color));
+    --main-color: rgb(192, 191, 154);
+    --main-gradient: linear-gradient(90deg, var(--main-color), rgb(133, 131, 85), var(--main-color));
 }
 
 div#page {
@@ -13,7 +13,7 @@ div#page {
     border-radius: 35px;
 }
 body {
-    background: linear-gradient(90deg, rgb(192, 191, 154), rgb(133, 131, 85), rgb(192, 191, 154));
+    background: linear-gradient(90deg, rgb(202, 197, 46), rgba(231, 225, 110, 0.822), rgb(202, 197, 46));
 }
 .title {
     text-align: center;
