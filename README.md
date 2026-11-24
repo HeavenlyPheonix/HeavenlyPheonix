@@ -23,6 +23,6 @@ Alongside that, we are able to share that all our services will have been assign
 
 ## Will you succeed?
 We cannot say for sure, but we hope to bring our once beloved clan back from the ashes it has fallen into.
----
+<hr>
 And such concludes what we are able to share as of now, but we'll be sure to bring upgrades to you as soon as possible.
 We hope to see you amongst our grounds, dear traveller.
