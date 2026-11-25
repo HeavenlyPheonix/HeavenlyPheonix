@@ -13,7 +13,7 @@ div#page {
     border-radius: 35px;
 }
 body {
-    background: linear-gradient(90deg, rgb(202, 197, 46), rgba(231, 225, 110, 0.822), rgb(202, 197, 46));
+    background: linear-gradient(90deg, rgb(46, 46, 41), rgba(109, 107, 75, 0.685), rgba(46, 46, 41, 1));
 }
 .title {
     text-align: center;
