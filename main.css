@@ -20,7 +20,7 @@ body {
 }
 p.title-note {
     font-size: 14px;
-    color: lightgray;
+    color: rgb(151, 151, 151);
 }
 .hor-centered {
     text-align: center;
@@ -28,4 +28,8 @@ p.title-note {
 .grad-text {
     /* Implement gradient text in future updates. Currently stay with singe-colored text.*/
     color: white;
+}
+div#page > hr {
+    width: 90%;
+    margin: 15px auto 10px auto
 }
