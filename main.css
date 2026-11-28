@@ -33,3 +33,23 @@ div#page > hr {
     width: 90%;
     margin: 15px auto 10px auto
 }
+nav#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 200px;
+    background-color: darkgray;
+    border: 1px solid gold;
+}
+nav#navbar > div#namebar > h5 {
+    font-size: 30px;
+    color: rgba(190, 173, 74, 0.89);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav#navbar > div#namebar > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
