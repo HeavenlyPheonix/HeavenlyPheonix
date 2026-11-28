@@ -1,13 +1,17 @@
 :root {
     --main-color: rgb(192, 191, 154);
     --main-gradient: linear-gradient(90deg, var(--main-color), rgb(133, 131, 85), var(--main-color));
+    --img-height: 75px;
+    --img-width: 75px;
+    --navbar-height: 100px;
+    --page-margin-top: var(--navbar-height) + 20;
 }
 
 div#page {
     background: var(--main-gradient);
     color: white;
     border: 1px solid rgb(214, 216, 125);
-    margin: 20px auto 10px auto;
+    margin: var(--page-margin-top) auto 10px auto;
     min-width: 250px;
     max-width: 1150px;
     border-radius: 35px;
@@ -38,8 +42,8 @@ nav#navbar {
     left: 0;
     right: 0;
     position: fixed;
-    height: 200px;
-    background-color: darkgray;
+    height: var(--navbar-height);
+    background-color: rgb(41, 40, 33);
     border: 1px solid gold;
 }
 nav#navbar > div#namebar > h5 {
@@ -49,7 +53,7 @@ nav#navbar > div#namebar > h5 {
     font-family: 'Times New Roman', Times, serif;
 }
 nav#navbar > div#namebar > img {
-    width: 150px;
-    height: 150px;
+    width: var(--img-width);
+    height: var(--img-height);
     border-radius: 30px;
 }
