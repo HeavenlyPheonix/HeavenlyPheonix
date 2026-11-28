@@ -11,8 +11,9 @@ div#page {
     background: var(--main-gradient);
     color: white;
     border: 1px solid rgb(214, 216, 125);
-    margin-left: var(--page-margin-top);
-    margin: inherit auto 10px auto;
+    
+    margin: 20px auto 10px auto;
+    margin-top: var(--page-margin-top);
     min-width: 250px;
     max-width: 1150px;
     border-radius: 35px;
