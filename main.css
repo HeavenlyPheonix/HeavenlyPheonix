@@ -4,7 +4,7 @@
     --img-height: 75px;
     --img-width: 75px;
     --navbar-height: 100px;
-    --page-margin-top: var(--navbar-height) + 20;
+    --page-margin-top: calc(var(--navbar-height) + 20px);
 }
 
 div#page {
@@ -44,8 +44,8 @@ nav#navbar {
     right: 0;
     position: fixed;
     height: var(--navbar-height);
-    background-color: rgb(41, 40, 33);
-    border: 1px solid gold;
+    background-color: rgb(20, 19, 9);
+    border-bottom: 1px solid gold;
 }
 nav#navbar > div#namebar > h5 {
     font-size: 30px;
