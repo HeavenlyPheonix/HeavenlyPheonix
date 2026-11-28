@@ -5,15 +5,15 @@
     --img-width: 75px;
     --navbar-height: 100px;
     --page-margin-top: calc(var(--navbar-height) + 20px);
+    --navbar-icon-xmargin: 10px;
 }
 
 div#page {
     background: var(--main-gradient);
     color: white;
     border: 1px solid rgb(214, 216, 125);
-    
-    margin: 20px auto 10px auto;
-    margin-top: var(--page-margin-top);
+    margin-left: var(--page-margin-top);
+    margin: inherit auto 10px auto;
     min-width: 250px;
     max-width: 1150px;
     border-radius: 35px;
@@ -46,16 +46,32 @@ nav#navbar {
     position: fixed;
     height: var(--navbar-height);
     background-color: rgb(20, 19, 9);
-    border-bottom: 1px solid gold;
+    border-bottom: 2px solid gold;
 }
-nav#navbar > div#namebar > h5 {
+nav#navbar > div#namebar > div#title {
+    display: inline-block;
+    position: relative;
+    border-left: 2px dashed rgba(190, 173, 74, 0.89);
+    height: 115px;
+    margin-bottom: 10px;
+    top: -15px;
+}
+nav#navbar > div#namebar > div#title > h5 {
     font-size: 30px;
     color: rgba(190, 173, 74, 0.89);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    vertical-align: center;
+    height: 100px;
+    margin-left: 15px;
 }
 nav#navbar > div#namebar > img {
     width: var(--img-width);
     height: var(--img-height);
     border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+    margin-left: var(--navbar-icon-xmargin);
+    margin-right: var(--navbar-icon-xmargin);
 }
